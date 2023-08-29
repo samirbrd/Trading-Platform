@@ -13,12 +13,12 @@ import pandas as pd
 
 st.title('Position Size BankNifty')
 #st.write("Here's my first attempt at writing some text")
-path_string_1="G:\\My drive\\autotrading\\Test Trend Following Futures\\"
+path_string_1=""./""
 file_string_1=path_string_1+'strategyposition.csv'
 df_position=pd.read_csv(file_string_1)
-file_string_2="G:\\My drive\\autotrading\\Trades\\Strategy.csv"
+file_string_2=pathString_1+"Strategy.csv"
 df_strategy=pd.read_csv(file_string_2)
-df_position_1=pd.read_csv('G:\\My Drive\\Trading\\Trend_Following\\Positions.csv')
+df_position_1=pd.read_csv(path_string_1+'Positions.csv')
 df_position=pd.concat([df_position,df_position_1])
 #df_position=df_position.merge(df_strategy,left_on='Strategy',right_on='Strategy')
 #cols=['ID','Strategy','Position','Trade Price','Trade Time','Eval Time','Status']
