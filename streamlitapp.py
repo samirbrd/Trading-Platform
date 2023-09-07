@@ -14,7 +14,7 @@ import pandas as pd
 st.title('Position Size BankNifty')
 # #st.write("Here's my first attempt at writing some text")
 path_string_1=
-file_string_1='strategyposition.csv'
+file_string_1='positionsummary.csv'
 df_position=pd.read_csv(file_string_1)
 # file_string_2="Strategy.csv"
 # df_strategy=pd.read_csv(file_string_2)
